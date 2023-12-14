@@ -1,0 +1,76 @@
+.root {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+  min-width: 320px;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 480px;
+  padding: 0 19px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper__input {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper__button {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  cursor: pointer;
+  border: black 1px solid;
+  width: 100px;
+  height: 50px;
+  background-color: inherit;
+  border-radius: 5%;
+  transition: all 0.3s;
+  margin: 0;
+}
+
+.button:hover  {
+  font-size: 16px;
+}
+
+.button:active  {
+  background-color: green;
+}
+
+
+.money-counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.money-counter__sum {
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.money-counter__sum-red {
+  font-size: 50px;
+
+  color: green;
+}
+
+.error__message {
+  color: red;
+}
